@@ -45,7 +45,7 @@ $(document).ready(function(){
 	/**
 	 * Show more results and track with analytics "showall"
 	 */
-	$("#ShowAll").click(function(){
+	$("#ShowAll").click(function(event){
 		event.preventDefault();
 		try { 
 			_gaq.push(['_trackEvent', 'showall' , 'click', '', , true]); 
